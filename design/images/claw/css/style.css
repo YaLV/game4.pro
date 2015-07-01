@@ -1,0 +1,29 @@
+@font-face { font-family: Cuprum; src: url('Cuprum.otf'); } 
+@font-face { font-family: Sens; src: url('Sansation_Bold.ttf'); }
+@font-face { font-family: SensNormal; src: url('Sansation_Regular.ttf'); } 
+
+html, body { background: #f7f7f7;  height: 100%; }
+h3 { font-family: Cuprum; font-size: 24px; color: #9a9a9a; text-transform: uppercase; padding-left: 8px;  }
+input[type="text"], input[type="password"]  { background: url('../images/input_bg.jpg') no-repeat; height: 36px; width: 243px; border: none; margin-top: 10px; }
+
+#wrapper { margin-left: 22px; background: #FFF; height: 80%; min-height: 600px; }
+#wrapper-ui { margin-left: 22px; background: #a4a4a4; }
+#logo { background: url('../images/logo.png') no-repeat; height: 124px; width: 155px; }
+#text { font-family: Cuprum; font-size: 24px; color: #9a9a9a; text-transform: uppercase; margin-top: 50px; }
+#reg-page { padding-top: 200px; }
+#registration { background: url('../images/reg_bg.jpg') no-repeat; height: 265px; width: 277px; margin-top: 10px; padding: 15px 15px 0 15px; }
+#ui { width: 100%; margin: 0 auto; }
+#tut { float: right; margin-right: 30px; }
+#con { float: right; margin: 40px 80px 0 0; }
+#bot-menu { background: url('../images/bot_line.png') repeat-x bottom; height: 30px; width: 100%; }
+
+.gameui { background: #a4a4a4 !important; }
+.block { width: 300px; margin-left: 100px; float: left; }
+.bot-button { font-family: Arial; height: 19px; width: 100px; text-transform: uppercase; background: #000; text-align: center; color: #a4a4a4; font-size: 9px; float: left; padding-top: 11px; }
+.bot-text { font-family: Arial; text-transform: uppercase; text-align: center; color: #fcfcfc; font-size: 9px; float: left; padding-top: 11px; }
+.clear { clear: both; }
+.home { height: 100%; }
+.form-title { font-family: Sens; font-size: 20px; color: #474747; }
+.form-text { font-family: SensNormal; font-size: 14px; color: #474747; }
+.form-sub { font-family: SensNormal; font-size: 12px; color: #474747; line-height: 22px; } 
+.copyright { font-family: Cuprum; font-size: 14px; color: #757575; text-transform: uppercase; margin: 0 0 0 56px; }
